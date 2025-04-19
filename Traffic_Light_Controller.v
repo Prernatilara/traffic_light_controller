@@ -134,7 +134,7 @@ module Traffic_Light_Controller(
                        light_M1<=3'b100;
                        light_M2<=3'b100;
                        light_MT<=3'b100;
-                       light_S<=3'b100;
+                       light_S<=3'b010;
                     end
                     default:
                     begin 
